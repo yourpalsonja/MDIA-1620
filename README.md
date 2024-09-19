@@ -15,17 +15,9 @@ A *cool* repository for my MDIA 1620 code.
 
 `touch` - make a file
 
-`git clone` - clones a repository
+`git clone` - copies a version of my repository
 
-`git status` - tell me the current status of my local repository
-
-`git add` - adds files to be tracked
-
-`git commit` - add an entry to our git timeline
-
-`git pull` - grabs changes from a remote repository
-
-`git push` - push changes to a remote repository
+`git status` - prints out the status of my local repo
 
 Wes Bos - free programming tutorials
 
