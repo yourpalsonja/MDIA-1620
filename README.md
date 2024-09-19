@@ -23,6 +23,8 @@ A *cool* repository for my MDIA 1620 code.
 
 `git commit` - add an entry to our git timeline
 
+`git pull` - grabs changes from a remote repository
+
 `git push` - push changes to a remote repository
 
 Wes Bos - free programming tutorials
