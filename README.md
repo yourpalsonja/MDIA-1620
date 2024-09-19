@@ -15,6 +15,16 @@ A *cool* repository for my MDIA 1620 code.
 
 `touch` - make a file
 
+`git clone` - clones a repository
+
+`git status` - tell me the current status of my local repository
+
+`git add` - adds files to be tracked
+
+`git commit` - add an entry to our git timeline
+
+`git push` - push changes to a remote repository
+
 Wes Bos - free programming tutorials
 
 Understand git - https://blinry.itch.io/oh-my-git
