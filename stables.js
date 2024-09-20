@@ -1,11 +1,13 @@
-console.log("horses are great!")
-let horseName = "Coolguy"; // this is a string
-horseName = "Charlie"; // for strings, prefer double quotes
-let horseAge = 5;
+let horseName = "Coolguy";
 console.log(horseName);
+horseName = "Charlie";
+console.log(horseName);
+let horseAge = 8968767865;
 console.log(horseAge);
-let isHorseInStable = false;
-console.log(isHorseInStable);
-console.log(horseName);
-horseName = "Coolhorse"
-console.log(horseName);
+let isHorseInside = true;
+console.log(isHorseInside);
+
+
+
+
+
