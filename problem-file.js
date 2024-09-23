@@ -6,7 +6,7 @@ The quick brown fox jumps over the lazy spaghetti.
 
 The quick brown fox jumps over the lazy lasagna. Yuck!
 
-The quick brown fox doesn't jump over the lazy dog. It just stands there and does nothing.
+The quick brown fox doesn't jump over the lazy dog. It just stands there and wags its tail.
 
 Let's also add our new terminal commands we learned!
 
