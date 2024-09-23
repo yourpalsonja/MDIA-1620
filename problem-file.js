@@ -14,4 +14,4 @@ Let's also add our new terminal commands we learned!
 
 you can copy the path to your current location in the directory by using the contextual menu and "get info" on MacOS.
 
-
+Hey there. We're about to create a conflict! But not with this line, this line is just to show you we can add multiple things to a file and most of the time, it will be okay.
