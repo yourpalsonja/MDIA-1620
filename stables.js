@@ -1,6 +1,5 @@
 // LESSON-3 Code
 let horseName = "Coolguy"; 
-
 horseName = "Charlie";
 let horseNickname = "Chuck";
 let horseAge = 1;
