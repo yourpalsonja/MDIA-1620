@@ -1,5 +1,6 @@
 // LESSON-3 Code
 let horseName = "Coolguy"; 
+
 horseName = "Charlie";
 let horseNickname = "Chuck";
 let horseAge = 1;
@@ -13,17 +14,17 @@ console.log(`My horse's name is ${horseName} and it costs ${STABLE_MONTHLY_FEE} 
 
 // LESSON-5 Code
 if(isHorseInside) {
-    console.log(horseName + " is inside!")
+    document.write(horseName + " is inside!")
 } else {
-    console.log(horseName + " is outside!");
+    document.write(horseName + " is outside!");
 }
 
-let visitingHorseName = "🍓 Strawberry";
+// let visitingHorseName = "🍓 Strawberry";
 
-if ((horseName === "Charlie" && isHorseInside) && (visitingHorseName === "🍓 Strawberry" || visitingHorseName === "🥬 Lettuce")) {
-    console.log(`${horseName} has a visitor and needs to come outside to see ${visitingHorseName}`);
-} else if ((horseName === "Charlie" && !isHorseInside) && (visitingHorseName === "🍓 Strawberry" || visitingHorseName === "🥬 Lettuce")) {
-    console.log(horseName + " is outside with " + visitingHorseName);
-} else {
-    console.log(horseName + " needs to figure what is going on");
-}
+// if ((horseName === "Charlie" && isHorseInside) && (visitingHorseName === "🍓 Strawberry" || visitingHorseName === "🥬 Lettuce")) {
+//     console.log(`${horseName} has a visitor and needs to come outside to see ${visitingHorseName}`);
+// } else if ((horseName === "Charlie" && !isHorseInside) && (visitingHorseName === "🍓 Strawberry" || visitingHorseName === "🥬 Lettuce")) {
+//     console.log(horseName + " is outside with " + visitingHorseName);
+// } else {
+//     console.log(horseName + " needs to figure what is going on");
+// }
