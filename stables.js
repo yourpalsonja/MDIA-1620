@@ -14,31 +14,39 @@ function Horse(name, nickname, age, faveTreat, isInside) {
 
 const strawberry = new Horse("Strawberry", "Shortcake", 3, "carrots", true);
 const beans = new Horse("Beans", "Beanie", 5, "beans", false);
-const charlie = new Horse("Charlie", "Chuck", 13, "raspberries", true);
+const charlie = new Horse("Charlie", "Chuck", 89, "strawberries", true);
 
-console.log(strawberry);
-console.log(beans);
-console.log(charlie);
-console.log(typeof charlie);
+let horses = [strawberry, beans, charlie];
 
-var numbers = [10, 20, 30, 40, 50];
-for (var i = 0; i < numbers.length; i++) {
-    console.log(numbers[i]);
+for (let i = 0; i < horses.length; i++) {
+    let horse = horses[i];
+    let horseName = horse["name"];
+    let favorite = horse["faveTreat"];
+    let doesLikeBeans = favorite === "beans";
+
+    if (doesLikeBeans) {
+        return console.log(horseName + " loves beans!");
+    }
+
+    console.log(
+        horseName + " doesn't like beans, only " + favorite + ", keep checking!"
+    );
 }
 
-// let stableIntroduction = `Welcome to "${horseName}'s" stable`;
-// let horseIntro = `There are ${horseNames.length} horses staying at my stables: ${horseNames[0]}, ${horseNames[1]}, ${horseNames[2]}!`;
-
-// function getHorseLocation(horse) {
-//     if (areHorsesInside[horse]) {
-//         return horseNames[horse] + " is inside.";
-//     }
-
-//     return horseNames[horse] + " is outside";
-// }
-
-// function getHorseNicknames(horse, friend) {
-//     let string = `${horseNames[horse]}'s nickname is ${horseNicknames[horse]}, and they have a friend named ${horseNames[friend]}, who is nicknamed ${horseNicknames[friend]}!`;
-
-//     return string;
-// }
+// horses = [
+//   {
+//     name: 'Strawberry',
+//     faveTreat: 'carrots',
+//     isInside: true,
+//   },
+//   {
+//     name: 'Beans',
+//     faveTreat: 'beans',
+//     isInside: false,
+//   },
+//   {
+//     name: 'Charlie',
+//     faveTreat: 'strawberries',
+//     isInside: true,
+//   }
+// ]
