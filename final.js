@@ -56,7 +56,7 @@
 //------------------------- Seting up shop -------------------------//
 
 // Initialize a variable called "horses" that will store the horses in your stable.
-// Create a variable and use it to store a message visitors to the stable.
+// Create a variable and use it to store a message that welcomes visitors to the stable.
 // Create a variable and use it to store the cost of a late payment fee.
 // Create a variable and use it to store the number of available stalls in the stable.
 

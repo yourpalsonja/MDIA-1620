@@ -1,24 +1,9 @@
 # MDIA-1620
-A *cool* repository for my MDIA 1620 code.
 
-`cd` - what you type when you need to change directories
+This is the repository for MDIA-1620 at BCIT, as taught by Sonja Farrell. Please don't use it for teaching without permission.
 
-`cd [command]`
+Beans lives here!
 
-`cd [foldername]` - will take you to a folder if you can access it
+![Beans](<[http://url/to/img.png](https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cnM3OTNrbTc2dnlvc2R3dDliZ2ozdmQxcjVhbXVmbHYxZ2Vpazc1MiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/6zhAoH0rb7GA8/giphy.gif)>)
 
-`cd ..` - ALWAYS will move you "up" to the directory above
-
-`ls` (mac) `dir` (win) - List the files and folders in your directory
-
-`mkdir` - make a new folder (directory)
-
-`touch` - make a file
-
-`git clone` - copies a version of my repository
-
-`git status` - prints out the status of my local repo
-
-Wes Bos - free programming tutorials
-
-Understand git - https://blinry.itch.io/oh-my-git
+If you clone this repo, please be aware that it might have old/outdated content from previous semesters.
