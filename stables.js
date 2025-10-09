@@ -83,3 +83,14 @@
 
 // Initialize new property to your horses: a boolean that allows you to check if your horse
 // is hungry or not. Use dot notation.
+
+//------------------------- Growing our business (Lab #2, Week 6) -------------------------//
+
+// Create a variable that stores your total number of stalls.
+// Create a function that logs out how many stalls are available, given how many horses you have in your stable.
+
+// Create a function that logs out how much will an individual horse will owe if rent is
+// paid late. Invoke the function.
+
+// Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
+// the return value outside of the function.
