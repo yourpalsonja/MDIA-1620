@@ -58,8 +58,8 @@ Write code to:
 Write a function `groomHorse(name, needsGrooming)` that:
 
 - Accepts `name` as a string, and `needsGrooming` as a boolean
-- If `name` is `"Charlie"`, and `needsGrooming` is `true` → returns `"Charlie has been groomed!"`
-- Otherwise → returns `"Charlie is already clean!"`
+- If `name` is `"Charlie"`, and `needsGrooming` is `true` → returns `"Charlie needs grooming!"`
+- Otherwise → returns `"Charlie is already groomed!"`
 
 Call it for all three horses with any boolean values you choose. 
 Save the return value of each function call in a variable, and log out each variable.
