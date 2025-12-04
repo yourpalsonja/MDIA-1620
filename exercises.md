@@ -58,10 +58,10 @@ Write code to:
 Write a function `groomHorse(name, needsGrooming)` that:
 
 - Accepts `name` as a string, and `needsGrooming` as a boolean
-- If `name` is `"Charlie"`, and `needsGrooming` is `true` → returns `"Charlie needs grooming!"`
-- Otherwise → returns `"Charlie is already groomed!"`
+- For example, if `name` is `"Charlie"`, and `needsGrooming` is `true` → return `"Charlie needs grooming!"`
+- Otherwise → return `"Charlie is already groomed!"`
 
-Call it for all three horses with any boolean values you choose. 
+Call it for all three different horses (they can be in an object, or array, or just passed as primitive arguments) with any boolean values you choose. 
 Save the return value of each function call in a variable, and log out each variable.
 
 ---
@@ -82,7 +82,7 @@ Write a function `countHungryHorses(stable)` that returns the number of horses w
 Create an object:
 
 ```js
-const stable = {
+let stable = {
   name: "Sunny Acres",
   horses: ["Beans", "Charlie", "Strawberry"],
   addHorse(horseName) {
