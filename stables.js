@@ -42,44 +42,28 @@
 //                                                         ####
 //                                                          ##
 //
-// This is a template for your labs and final project. You'll be setting up a stable and making
+// This is a template for your assignments and final project. You'll be setting up a stable and making
 // sure it runs smoothly.
 //
-// Please do not create a new file for each lab!
+// Please do not create a new file for each assignment!
 // Feel free to keep the headings (e.g.: "Variables"), but please delete any boilerplate
-// comments. (Your own comments, where necessary, are acceptable.)
+// comments. E.g.: those seen on lines 58 - 68, for example. They are usually providing directions. 
+// (Your own comments, where necessary, are acceptable.)
 //
 // NOTE: UNLESS SPECIFIED, VARIABLE NAMING IS UP TO YOU. THERE SHOULD BE NO HARD-CODED
 // NUMBERS OR STRINGS WHERE VARIBALES WOULD BE PREFERRED.
 
-//------------------------- Seting up shop (Lab #1a, Week 3) -------------------------//
+//------------------------- Seting up shop (Assignment 1) -------------------------//
 
-// Declare variables with values for the following:
-// - the name of the horse at the stable
+// Store information about three horses in your stables.
+// Each horse should have the following information associated with it:
+//
+// - the name of a horse at your stable
 // - the age of the horse
-// - whether the horse is inside or outside
+// - what the horse likes to snack on
 // - the cost to board the horse monthly
 // - the fee for a late payment (monthly rate + 20%)
 //
-// Create a variable and use it to store a message for visitors to the stable.
-// Create a variable and use it to store a message that monthly payment is late, and the amount owing.
-// Include the name of your horse in the message.
-
-//------------------------- First day (Lab #1b, Week 4) -------------------------//
-
-// Using an object, add at least 3 horses to your stables.
-//
-// The horses should have the following properties:
-// - name, nickname, favorite treat (string)
-// - age, monthly rent (number)
-// - location (boolean inside/outside)
-// - two unique properties of your choice (use any primitive)
-
-// Store the horses you've just created in a "horses" variable.
-// Keep your old horse info from week one for now.
-
-// Fancy! Another horse wants to be stabled! Create a variable that stores an object
-// literal of your new horse, and add it to your "horses" variable.
-
-// Initialize new property to your horses: a boolean that allows you to check if your horse
-// is hungry or not. Use dot notation.
+// Create a variable and use it to store the name of your stable.
+// Create a variable and use it to store a message for visitors to the stable as a string. It should include the name of your stable.
+// Create a variable and use it to store a message that monthly payment is late, and the amount owing. Include the name of one of your horses in the message.
